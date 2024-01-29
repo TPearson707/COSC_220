@@ -1,0 +1,73 @@
+Timings with 100 items
+
+Linked List push_front Time:
+Time to push_front with linked list: 3.9e-05 seconds
+
+Vector push_front Time:
+Time to push_front vectList 3.5e-05 seconds
+
+STL List push_front time:
+Time to push_front STL List 1.9e-05 seconds
+
+Linked List push_back Time:
+Time to push_back LinkedList 5e-06 seconds
+
+Vector push_back Time:
+Time to push_back vectList 7e-06 seconds
+
+STL List push_back Time:
+Time to push_back STL List 1.8e-05 seconds
+
+Program Run With:
+
+100,000 items:
+
+Input the number of values to store: 100000
+Time to push_front with linked list: 0.007805 seconds
+Time to push_front vectList 0.780159 seconds
+Time to push_front STL List 0.011837 seconds
+Time to push_back LinkedList 0.003723 seconds
+Time to push_back vectList 0.003443 seconds
+Time to push_back STL List 0.012309 seconds
+
+500,000 items:
+
+Input the number of values to store: 500000
+Time to push_front with linked list: 0.041423 seconds
+Time to push_front vectList 23.8674 seconds
+Time to push_front STL List 0.06069 seconds
+Time to push_back LinkedList 0.018802 seconds
+Time to push_back vectList 0.017158 seconds
+Time to push_back STL List 0.059309 seconds
+
+750,000 items:
+
+Input the number of values to store: 750000
+Time to push_front with linked list: 0.041804 seconds
+Time to push_front vectList 62.768 seconds
+Time to push_front STL List 0.090111 seconds
+Time to push_back LinkedList 0.027384 seconds
+Time to push_back vectList 0.025284 seconds
+Time to push_back STL List 0.087736 seconds
+
+1,000,000 items:
+Input the number of values to store: 1000000
+Time to push_front with linked list: 0.054695 seconds
+Time to push_front vectList 108.407 seconds
+Time to push_front STL List 0.115259 seconds
+Time to push_back LinkedList 0.035017 seconds
+Time to push_back vectList 0.031415 seconds
+Time to push_back STL List 0.113662 seconds
+
+TIME COMPARISON:
+
+Linked List:
+The new and improved linked list is much more efficient. It beats out all categories when it comes to the push_front function.
+When it comes to the push_back functoin is barely loses to the vector, but still remains superior to the standard STL list
+
+Vector:
+The vector is absolute trash when it comes to pushing items from the front. However, that is not what it was designed for. When it comes to pushing frrom the back the vector wins every time with the Linked List coming in a close second place.
+
+STL List:
+The STL List performs well in both categories, however, the Linked List has both push_front and push_back functionality as well, and is faster.
+

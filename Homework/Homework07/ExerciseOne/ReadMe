@@ -1,0 +1,52 @@
+Program Sizes:
+
+10,000:
+
+Input the number of values to store: 10000
+Time to sort with linked list: 0.161817 seconds
+Time to sort the array with bubble sort 0.499555 seconds
+Time to sort the array with insertion sort 0.068659 seconds
+Time to sort the array with selection sort 0.133046 seconds
+
+25,000:
+
+Input the number of values to store: 25000
+Time to sort with linked list: 1.226 seconds
+Time to sort the array with bubble sort 3.13072 seconds
+Time to sort the array with insertion sort 0.4124 seconds
+Time to sort the array with selection sort 0.88925 seconds
+
+
+50,000:
+
+Input the number of values to store: 50000
+Time to sort with linked list: 5.18687 seconds
+Time to sort the array with bubble sort 12.5782 seconds
+Time to sort the array with insertion sort 1.67979 seconds
+Time to sort the array with selection sort 3.13685 seconds
+
+
+75,000:
+
+Input the number of values to store: 75000
+Time to sort with linked list: 11.9096 seconds
+Time to sort the array with bubble sort 28.423 seconds
+Time to sort the array with insertion sort 3.76948 seconds
+Time to sort the array with selection sort 7.15247 seconds
+
+
+100,000:
+
+Input the number of values to store: 100000
+Time to sort with linked list: 21.5679 seconds
+Time to sort the array with bubble sort 51.6448 seconds
+Time to sort the array with insertion sort 6.77911 seconds
+Time to sort the array with selection sort 12.7083 seconds
+
+How do the different sorting methods compare in runtime?
+
+In terms of comparison the methods net vastly different run times. It's not too noticable in the beginning
+with sorts taking less than a second for 10,000 elements. However, by the end of the program at 100,000 eements,
+bubble sort is dead last taking almost a minute to sort the array. Insertion on the otherhand is still solid at
+around 7 seconds to sort. Selection is second to insertion and the linked list sort is third. Thus in all
+stages of data sorting insertion remains on top while bubble sort is hot garbage.
